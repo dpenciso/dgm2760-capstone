@@ -141,3 +141,8 @@ footer {
 .quote-div h2 {
     font-weight: 400;
 }
+
+footer p a {
+    text-decoration: underline;
+    color: white;
+}
