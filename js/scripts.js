@@ -1,11 +1,32 @@
-// async function getHotelData() {
-//     try {
-//         const response = await fetch('../hotel.json')
-//         return await response.json() //return json object
-//     } catch (error) {
-//         console.error(error)
-//     }
-// }
+async function getQuoteData() {
+    try {
+        const response = await fetch('../quote.json')
+        return await response.json()
+    } catch (error) {
+        console.error(error)
+    }
+}
+
+let quoteData = {}
+
+getQuoteData().then(data => quoteData = data
+)
+
+let quoteClick = document.querySelectorAll('a')
+quoteClick.forEach(quote => {
+    quote.addEventListener('click', quoteInfo)
+})
+
+function quoteInfo(event) {
+    let quoteChoice = quoteData.quotes.find(quote => {
+        return event.target.id === quote.name.toLowerCase()
+    })
+
+    document.querySelector('#quoteName').textContent = `${quoteChoice.text}`
+}
+
+
+
 
 const todoInput = document.querySelector('.todo-input')
 const todoButton = document.querySelector('.todo-button')
