@@ -10,6 +10,16 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 15%;
 }
 
 form {
@@ -130,6 +140,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 #quoteName {
