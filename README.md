@@ -2,7 +2,7 @@
 
 The Motivational To-Do List is to not only help individuals organize the tasks they have to do, but give them the motivation they need to do it.
 
-![Screenshot of App](/images/screenshot.png)
+![Screenshot of App](/images/screenshot1.png)
 
 ## Instructions
 Open Terminal on your Machine<br />
