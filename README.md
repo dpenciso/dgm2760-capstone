@@ -5,7 +5,8 @@ The Motivational To-Do List is to not only help individuals organize the tasks t
 ![Screenshot of App](/images/screenshot1.png)
 
 ## Instructions
-Open Terminal on your Machine<br />
+Have node.js installed on your machine
+Open Terminal on your machine<br />
 Globally install http-server by typing: npm install -g http-server<br />
 (If you are not logged in as the administrator you will need to type "sudo" before the command and then enter your password)<br />
 Navigate to the folder you wish to serve<br />
